@@ -100,7 +100,11 @@ class ShopPageHeader extends StatelessWidget {
       // Navigator.pop(context);
       Text(
         title,
-        style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w800),
+        style: const TextStyle(
+          fontSize: 24,
+          fontWeight: FontWeight.w800,
+          fontFamily: 'Poppins',
+        ),
       ),
       const CircleIconButton(icon: Icons.more_vert),
     ],
